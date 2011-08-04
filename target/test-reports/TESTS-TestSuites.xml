@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="1" hostname="Station01" id="0" name="RaceIntegrationTests" package="racetrack" tests="1" time="0.653" timestamp="2011-08-04T03:58:55">
+      <properties />
+
+      <testcase classname="racetrack.RaceIntegrationTests" name="testRaceDatesBeforeDay" time="0.629">
+          <failure message="junit.framework.AssertionFailedError: Validation should not succeed" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Validation should not succeed
+	at racetrack.RaceIntegrationTests.testRaceDatesBeforeDay(RaceIntegrationTests.groovy:8)
+	at java_util_concurrent_Callable$call.call(Unknown Source)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testRaceDatesBeforeDay--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testRaceDatesBeforeDay--
+]]></system-err>
+
+  </testsuite>
+</testsuites>

@@ -1,0 +1,16 @@
+Testsuite: racetrack.RaceIntegrationTests
+Tests run: 1, Failures: 1, Errors: 0, Time elapsed: 0,653 sec
+------------- Standard Output ---------------
+--Output from testRaceDatesBeforeDay--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testRaceDatesBeforeDay--
+------------- ---------------- ---------------
+
+Testcase: testRaceDatesBeforeDay took 0,624 sec
+	FAILED
+junit.framework.AssertionFailedError: Validation should not succeed
+junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Validation should not succeed
+	at racetrack.RaceIntegrationTests.testRaceDatesBeforeDay(RaceIntegrationTests.groovy:8)
+	at java_util_concurrent_Callable$call.call(Unknown Source)
+

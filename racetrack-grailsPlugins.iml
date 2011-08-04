@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="web" name="GrailsWeb">
+      <configuration>
+        <webroots>
+          <root url="file://$USER_HOME$/.grails/1.4.0.M1/projects/racetrack/plugins/jquery-1.6.1.1/web-app" relative="/" />
+          <root url="file://$USER_HOME$/.grails/1.4.0.M1/projects/racetrack/plugins/haml-0.3/web-app" relative="/" />
+        </webroots>
+        <sourceRoots />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$USER_HOME$/.grails/1.4.0.M1/projects/racetrack/plugins/haml-0.3">
+      <sourceFolder url="file://$USER_HOME$/.grails/1.4.0.M1/projects/racetrack/plugins/haml-0.3/src/java" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/1.4.0.M1/projects/racetrack/plugins/haml-0.3/grails-app/utils" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/1.4.0.M1/projects/racetrack/plugins/haml-0.3/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/1.4.0.M1/projects/racetrack/plugins/haml-0.3/grails-app/controllers" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/1.4.0.M1/projects/racetrack/plugins/haml-0.3/grails-app/domain" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/1.4.0.M1/projects/racetrack/plugins/haml-0.3/grails-app/services" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/1.4.0.M1/projects/racetrack/plugins/haml-0.3/grails-app/taglib" isTestSource="false" />
+      <excludeFolder url="file://$USER_HOME$/.grails/1.4.0.M1/projects/racetrack/plugins/haml-0.3/target/classes" />
+      <excludeFolder url="file://$USER_HOME$/.grails/1.4.0.M1/projects/racetrack/plugins/haml-0.3/target/test-classes" />
+      <excludeFolder url="file://$USER_HOME$/.grails/1.4.0.M1/projects/racetrack/plugins/haml-0.3/web-app/plugins" />
+    </content>
+    <content url="file://$USER_HOME$/.grails/1.4.0.M1/projects/racetrack/plugins/hibernate-1.4.0.M1">
+      <excludeFolder url="file://$USER_HOME$/.grails/1.4.0.M1/projects/racetrack/plugins/hibernate-1.4.0.M1/target/classes" />
+      <excludeFolder url="file://$USER_HOME$/.grails/1.4.0.M1/projects/racetrack/plugins/hibernate-1.4.0.M1/target/test-classes" />
+      <excludeFolder url="file://$USER_HOME$/.grails/1.4.0.M1/projects/racetrack/plugins/hibernate-1.4.0.M1/web-app/plugins" />
+    </content>
+    <content url="file://$USER_HOME$/.grails/1.4.0.M1/projects/racetrack/plugins/jquery-1.6.1.1">
+      <sourceFolder url="file://$USER_HOME$/.grails/1.4.0.M1/projects/racetrack/plugins/jquery-1.6.1.1/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/1.4.0.M1/projects/racetrack/plugins/jquery-1.6.1.1/grails-app/services" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/1.4.0.M1/projects/racetrack/plugins/jquery-1.6.1.1/grails-app/taglib" isTestSource="false" />
+      <excludeFolder url="file://$USER_HOME$/.grails/1.4.0.M1/projects/racetrack/plugins/jquery-1.6.1.1/target/classes" />
+      <excludeFolder url="file://$USER_HOME$/.grails/1.4.0.M1/projects/racetrack/plugins/jquery-1.6.1.1/target/test-classes" />
+      <excludeFolder url="file://$USER_HOME$/.grails/1.4.0.M1/projects/racetrack/plugins/jquery-1.6.1.1/web-app/plugins" />
+    </content>
+    <content url="file://$USER_HOME$/.grails/1.4.0.M1/projects/racetrack/plugins/resources-1.0">
+      <sourceFolder url="file://$USER_HOME$/.grails/1.4.0.M1/projects/racetrack/plugins/resources-1.0/src/java" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/1.4.0.M1/projects/racetrack/plugins/resources-1.0/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/1.4.0.M1/projects/racetrack/plugins/resources-1.0/grails-app/services" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/1.4.0.M1/projects/racetrack/plugins/resources-1.0/grails-app/taglib" isTestSource="false" />
+      <excludeFolder url="file://$USER_HOME$/.grails/1.4.0.M1/projects/racetrack/plugins/resources-1.0/target/classes" />
+      <excludeFolder url="file://$USER_HOME$/.grails/1.4.0.M1/projects/racetrack/plugins/resources-1.0/target/test-classes" />
+      <excludeFolder url="file://$USER_HOME$/.grails/1.4.0.M1/projects/racetrack/plugins/resources-1.0/web-app/plugins" />
+    </content>
+    <content url="file://$USER_HOME$/.grails/1.4.0.M1/projects/racetrack/plugins/tomcat-1.4.0.M1">
+      <excludeFolder url="file://$USER_HOME$/.grails/1.4.0.M1/projects/racetrack/plugins/tomcat-1.4.0.M1/target/classes" />
+      <excludeFolder url="file://$USER_HOME$/.grails/1.4.0.M1/projects/racetrack/plugins/tomcat-1.4.0.M1/target/test-classes" />
+      <excludeFolder url="file://$USER_HOME$/.grails/1.4.0.M1/projects/racetrack/plugins/tomcat-1.4.0.M1/web-app/plugins" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="grails-1.4.0.M1" level="application" />
+    <orderEntry type="module-library" exported="">
+      <library name="Grails User Library (racetrack-grailsPlugins)">
+        <CLASSES>
+          <root url="file://$USER_HOME$/.grails/1.4.0.M1/projects/racetrack/plugins/haml-0.3/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$USER_HOME$/.grails/1.4.0.M1/projects/racetrack/plugins/haml-0.3/lib" recursive="false" />
+      </library>
+    </orderEntry>
+  </component>
+</module>
+
