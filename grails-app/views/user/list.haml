@@ -1,0 +1,27 @@
+%html
+  %head
+    %title Simple GSP page
+    %meta(name="layout" content="main")
+  %body
+    %g:if(test="${flash.message}")
+      #message.message
+        ${flash.message}
+    %table
+      %thead
+        %tr
+          %th ID
+          %th Login
+          %th Password
+      %tbody
+        %g:each(var="user" in="${userInstanceList}" status="i")
+          %tr(class="${(i%2) == 0 ? 'odd' : 'even'}")
+            %td
+              %g:link(action="show" id="${user.id}") ${user.id}
+            %td
+              ${user.login}
+            %td
+              ${user.password}
+            %td
+              ${user.role}
+      #pagination.paginateButtons
+        %g:paginate(total="${userInstanceTotal}")

@@ -1,0 +1,16 @@
+%html
+  %head
+    %title Simple haml
+    %meta(name="layout" content="main")
+  %body
+    %table
+      %tr.prop
+        %td.name(valign="top")
+          ID
+        %td.value(valign="top")
+          ${userInstance.id}
+      %tr.prop
+        %td.name(valign="top")
+          Login
+        %td.value(valign="top")
+          ${userInstance.login}

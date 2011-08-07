@@ -15,7 +15,7 @@ class Race {
         name(blank: false, maxSize: 64)
         startDate validator: { dt ->  (dt > new Date()) }
         city()
-        state(inList: ["GA", "NC", "SC", "VA"])
+        state(inList: ["SP", "RJ"])
         distance(min: 0.0)
         cost(min: 0.0, max: 100.0)
         maxRunners(min: 0, max: 100000)
