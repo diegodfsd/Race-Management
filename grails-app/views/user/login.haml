@@ -4,15 +4,15 @@
     %title Simple GSP page
     %meta(name="layout" content="main")
   %body
-    #body.body
+    %div.body
       %h1
         Login
       %g:if(test="${flash.message}")
-        #message.message
+        %div.message
           ${flash.message}
 
       %g:form(action="authenticate" method="post")
-        #dialog.dialog
+        %div.dialog
           %table
             %tbody
               %tr.prop
@@ -25,7 +25,7 @@
                   %label(for="password") Password:
                 %td(valign="top")
                   %input(type = "password" id = "password" name = "password")
-        #buttons.buttons
+        %div.buttons
           %span.button
             %input(type = "submit" value = "Login")
 

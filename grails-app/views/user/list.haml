@@ -4,7 +4,7 @@
     %meta(name="layout" content="main")
   %body
     %g:if(test="${flash.message}")
-      #message.message
+      %div.message
         ${flash.message}
     %table
       %thead
@@ -23,5 +23,5 @@
               ${user.password}
             %td
               ${user.role}
-      #pagination.paginateButtons
+      %div.paginateButtons
         %g:paginate(total="${userInstanceTotal}")
